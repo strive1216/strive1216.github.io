@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Redis搭建Cluster集群</title>
+      <link href="/2022/04/02/redis-da-jian-cluster-ji-qun/"/>
+      <url>/2022/04/02/redis-da-jian-cluster-ji-qun/</url>
+      
+        <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>安装必要的软件包</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">apt-get install make gcc tcl lua5.4<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>从官网获取redis最新源码包</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">wget https://download.redis.io/releases/redis-6.2.6.tar.gzmake # 运行make编译redismake test # 编译完成后运行测试make install # 安装redis<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Redis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/04/02/hello-world/"/>
       <url>/2022/04/02/hello-world/</url>
@@ -17,16 +42,16 @@
     
     
     <entry>
-      <title>typora-vue-theme主题介绍</title>
-      <link href="/2018/09/07/test/"/>
-      <url>/2018/09/07/test/</url>
+      <title>demo</title>
+      <link href="/2022/03/07/demo/"/>
+      <url>/2022/03/07/demo/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><h4 id="引用图片"><a href="#引用图片" class="headerlink" title="引用图片"></a>引用图片</h4><p>加载图片 111 <span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p><img src="/2022/03/07/demo/1.jpg" class=""> <h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h3 id="第一步-1"><a href="#第一步-1" class="headerlink" title="第一步"></a>第一步</h3><h3 id="第二步-1"><a href="#第二步-1" class="headerlink" title="第二步"></a>第二步</h3>]]></content>
       
       
       <categories>
           
-          <category> Markdown </category>
+          <category> Demo </category>
           
       </categories>
       
